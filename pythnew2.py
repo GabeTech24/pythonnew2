@@ -32,7 +32,7 @@ else:
     print('No Tax deduction made')
 final_purchase_amount = tax + actual_purchase_price
 print(f'Original purchase amount of the customer ($):{purchase_amount:.2f} ')
-print(f'Discount applied ($):{discount:.2f} ')
-print(f'Tax applied ($):{tax:.2f}')
+print(f'Discount applied ($):{discount:.3f} ')
+print(f'Tax applied ($):{tax:.3f}')
 print(f'Final amount the customer paid ($):{final_purchase_amount:.2f} ')
 print('Thanks a lot')
